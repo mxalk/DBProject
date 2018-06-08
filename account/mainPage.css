@@ -1,0 +1,316 @@
+﻿header {
+    text-align: center;
+}
+
+body {
+    background: #A78923;
+    background: -webkit-linear-gradient(right, #A78923, #3B0F24);
+    background: -moz-linear-gradient(right, #A78923, #3B0F24);
+    background: -o-linear-gradient(right, #A78923, #3B0F24);
+    background: linear-gradient(to left, #A78923, #3B0F24);
+    font-family: Carlito;
+    color:white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1{
+color: #ffffff; 
+font-family: 'Lato', sans-serif; font-size: 54px; 
+font-weight: 300; 
+line-height: 58px; 
+margin: 0 0 58px; 
+}
+
+.dropdown{
+    float:left;
+}
+
+.cart{
+    float:right;
+}
+
+nav a p{
+    text-decoration:none;
+}
+
+nav>ul{
+    margin-top:6px !important;
+}
+
+nav ul {
+    height: 27px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    text-align: center;
+}
+
+nav ul ul a{
+    line-height:43px;
+    left:100%;
+    top:0;
+}
+
+nav li {
+    float: left;
+    padding: 0px 8px 0px 8px;
+}
+
+nav form input, nav input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #A78923;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+nav li a, nav form input, nav input {
+    color: darkgreen;
+    opacity: 0.7;
+    display: block;
+    line-height: 30px;
+    padding: 0px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+    nav li a:hover,nav form input:hover, nav input:hover{
+        color: darkred;
+        text-decoration: none;
+    }
+
+
+    nav li ul {
+        background: #A78923;
+        border-left: 2px solid #A78923;
+        border-right: 2px solid #A78923;
+        border-bottom: 2px solid #A78923;
+        display: none;
+        height: auto;
+        filter: alpha(opacity=95);
+        opacity: 0.95;
+        position: absolute;
+        width: 225px;
+        z-index: 200;
+    }
+
+nav li:hover > ul {
+    display: block;
+}
+
+nav li li {
+    display: block;
+    float: none;
+    padding: 0px;
+    position: relative;
+    width: 225px;
+}
+
+nav li ul a {
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    padding: 0px 10px 0px 15px;
+    text-align: left;
+}
+
+nav li ul a:hover {
+    background: yellowgreen;
+    color: #000000;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+nav p {
+    clear: left;
+}
+
+
+aside {
+    float: left;
+    display: block;
+    border: dashed;
+    height: 90%;
+}
+
+article {
+    display: block;
+    height: 90%;
+}
+
+ul.products li {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*Add to cart*/
+
+
+HTML CSS Result Edit on
+/* Icon set - http://ionicons.com */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700); @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css); .snip1268 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    color: #333333;
+    text-align: center;
+    background-color: #ffffff;
+    line-height: 1.6em;
+}
+
+.snip1268 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.snip1268 .image {
+    position: relative;
+}
+
+.snip1268 img {
+    max-width: 100%;
+    vertical-align: top;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+.snip1268 .icons,
+.snip1268 .add-to-cart {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    opacity: 0;
+}
+
+.snip1268 .icons {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .snip1268 .icons a {
+        width: 32.5%;
+        background: #ffffff;
+    }
+
+        .snip1268 .icons a:hover {
+            background: #000000;
+        }
+
+            .snip1268 .icons a:hover i {
+                color: #ffffff;
+                opacity: 1;
+            }
+
+    .snip1268 .icons i {
+        line-height: 46px;
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+        opacity: 0.7;
+        margin: 0;
+    }
+
+.snip1268 .add-to-cart {
+    position: absolute;
+    bottom: 20px;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    font-size: 0.8em;
+    color: #000000;
+    line-height: 46px;
+    letter-spacing: 1.5px;
+    background-color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+    .snip1268 .add-to-cart:hover {
+        background: #000000;
+        color: #ffffff;
+    }
+
+.snip1268 figcaption {
+    padding: 20px 20px 30px;
+}
+
+.snip1268 h2,
+.snip1268 p {
+    margin: 0;
+    text-align: left;
+}
+
+.snip1268 h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.snip1268 p {
+    margin-bottom: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.snip1268 .price {
+    font-size: 1.3em;
+    opacity: 0.5;
+    font-weight: 700;
+    text-align: right;
+}
+
+.snip1268:hover img,
+.snip1268.hover img {
+    opacity: 0.8;
+}
+
+.snip1268:hover .icons,
+.snip1268.hover .icons,
+.snip1268:hover .add-to-cart,
+.snip1268.hover .add-to-cart {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.cart input[type=submit] {
+    background: url('img/cart2.png') no-repeat;
+    border: 0;
+    display: block;
+    height:100px;
+    width:100px;
+}
+
+#disOne{
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: green;
+        color:red;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+}

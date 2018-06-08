@@ -1,0 +1,159 @@
+﻿1.
+Kotsifali
+year: 2008
+color: Red
+winery: Lyrarakis
+price: 15 
+file: kotsifali.jpg
+_______
+2.
+Vilana
+year: 2012
+color: White
+winery: Lyrarakis
+price: 12.5
+file: vilana.jpg
+_________
+3.
+Helios
+year: 2005
+color: Red
+winery: Douloufakis
+price: 5 
+file: helios.png
+_______
+4.
+Enotria Rose
+year: 2008
+color: Rose
+winery: Douloufakis
+price: 5.4
+file: enotria-rose.png
+________
+5.
+Enotria Red
+year: 2016
+color: Red
+winery: Douloufakis
+price: 6
+file: enotria-red.png
+________
+6.
+Dafnios
+year: 2015
+color: Red
+winery: Douloufakis
+price: 16
+file: dafnios-red.png
+________
+7.
+Alargo
+year: 2013
+color: Red
+winery: Douloufakis
+price: 4.9
+file: alargo-red.png
+________
+8.
+Aspros Lagos
+year: 2014
+color: Red
+winery: Douloufakis
+price: 6
+file: aspros-lagos-red.png
+________
+9.
+Sangiovese
+year: 2013
+color: Red
+winery: Douloufakis
+price: 16,8
+file: sangiovese.png
+________
+10.
+Epoch
+year: 2016
+color: Red
+winery: Douloufakis
+price: 5
+file: epoch-red.png
+________
+11.
+Dafnios
+year: 2017
+color: White
+winery: Douloufakis
+price: 7.3
+file: dafnios-white.png
+________
+12.
+Aspros Lagos
+year: 2016
+color: White
+winery: Douloufakis
+price: 11.9
+file: aspros-lagos-white.png
+________
+13.
+Enotria
+year: 2017
+color: Rose
+winery: Douloufakis
+price: 5.4
+file: enotria-rose.png
+________
+14.
+Sparkling White Wine
+year: 2016
+color: White
+winery: Douloufakis
+price: 23.1
+file: sparkling-white.png
+________
+15.
+Sauvignon Blanc 
+year: 2016
+color: White
+winery: Douloufakis
+price: 4.8
+file: sauvignon-blanc.png
+________
+16.
+Metoikos
+year: 2010
+color: Red
+winery: Miliarakis
+price: 15.9
+file: 01metikosred.jpg
+________
+17.
+Ktima Miliaraki
+year: 2012
+color: Red
+winery: Miliarakis
+price: 10.8
+file: 02.jpg
+________
+18.
+Malvazia
+year: 2017
+color: White
+winery: Miliarakis
+price: 11.2
+file: malvazia_web.jpg
+________
+19.
+Semi-mountainous
+year: 2014
+color: Red
+winery: Miliarakis
+price: 10.2
+file: 07hmiorinierythro.jpg
+________
+20.
+Semi-sweetWhite
+year: 2017
+color: White
+winery: Miliarakis
+price: 10.9
+file: 10minos.jpg

@@ -1,0 +1,148 @@
+﻿body {
+    font-family: Carlito;
+    background-color: #A78923;
+    background-image: url('img/greek-wine.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#right {
+    float:right;
+    display: flex;
+    margin-top:60px;
+    margin-right:30px;
+}
+
+input  {
+    text-align: center;
+    text-decoration: none;
+    font-size:medium;
+    background-color: #792F17;
+    height:80px;
+    width: 100px;
+    color: #B6D943;
+    border: none;
+    border-radius:2px;
+    opacity: 0.9;
+}
+
+#left {
+    float: left;
+}
+
+input:hover {
+    background-color: #A78923;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+#bdy {/*fonts fix*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 41px;
+    padding-top: 5vh;
+    align-content: center;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    text-align: center;
+    line-height: 200px;
+    text-shadow: 6px 6px 6px #1C1021;
+    width: 100%;
+}
+    #bdy div {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        color: #B6D943;
+    }
+
+#bdy div:first-of-type {
+    animation: showup 7s infinite;
+}
+
+#bdy div:last-of-type {
+    width: 0px;
+    animation: reveal 7s infinite;
+}
+
+#bdy div:last-of-type span {
+    margin-left: -355px;
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -800px;
+    }
+
+    20% {
+        margin-left: -800px;
+    }
+
+    35% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+
+    30% {
+        width: 355px;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width: 355px;
+    }
+}
+
+
+footer {
+    text-decoration: none;
+    overflow: hidden;
+    position: absolute;
+    color: #f2f2f2;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+}

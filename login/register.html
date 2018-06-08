@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta charset='utf-8' />
+    <title>🍷Fine Greek Wines</title>
+    <link rel='stylesheet' type='text/css' href='register.css' />
+    <script type='text/javascript' src='jquery.js'></script>
+    <script type='text/javascript' src='register.js'></script>
+</head>
+<body>
+    <div class='login-page'>
+        <div class='form'>
+            <form class='register-form' action='register.php' method='post'>
+                <input type='text' placeholder='username' name='username' required/>
+				<input type='password' id='psw1' name='password' placeholder='enter your password' pattern='^(?=.*[a-zA-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,10}' title='Must contain at least one number, one letter and one symbol, and must be at least 8 and max 10 characters' required>
+                <input type='password' id='psw2'placeholder='please re-enter your password' pattern='^(? =.*[a-zA-Z])(? =.*\d)(? =.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,10}' title='Must contain at least one number, one letter and one symbol, and must be at least 8 and max 10 characters' required onChange='passwordMatch();'>
+                <br /><span id='message'></span>
+				<input type='text' placeholder='email address' name='email' required/>
+                <input type='number' placeholder='phone number' name='phone_number' required/>
+                <input type='text' placeholder='address' name='address'required/>
+                <input type='checkbox' name='wholesale'>Wholesale Account?<br/><br/>
+                <input type='submit' id='button' value='CREATE'>
+                <p class='message'>Already registered? <a href='login.html'>Sign In</a></p>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <input type='button' value='Return' onclick=location.href='../index.html'>
+    </footer>
+</body>
+</html>

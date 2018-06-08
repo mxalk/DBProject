@@ -1,0 +1,55 @@
+﻿body {
+    background: #A78923;
+    background: -webkit-linear-gradient(right, #A78923, #3B0F24);
+    background: -moz-linear-gradient(right, #A78923, #3B0F24);
+    background: -o-linear-gradient(right, #A78923, #3B0F24);
+    background: linear-gradient(to left, #A78923, #3B0F24);
+    font-family: Carlito;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 41px;
+    padding-top: 5vh;
+    align-content: center;
+    color: #1C1021;
+}
+
+.container {
+    padding-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #B6D943;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #3B0F24;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
